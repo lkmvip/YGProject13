@@ -14,4 +14,3 @@ F:\OneDrive\Git\YGProject13\DestroyMonsterTool\obj\Debug\DestroyMonsterTool.Prop
 F:\OneDrive\Git\YGProject13\DestroyMonsterTool\obj\Debug\DestroyMonsterTool.csproj.GenerateResource.Cache
 F:\OneDrive\Git\YGProject13\DestroyMonsterTool\obj\Debug\DestroyMonsterTool.exe
 F:\OneDrive\Git\YGProject13\DestroyMonsterTool\obj\Debug\DestroyMonsterTool.pdb
-F:\OneDrive\Git\YGProject13\DestroyMonsterTool\obj\Debug\DestroyMonsterTool.csprojResolveAssemblyReference.cache

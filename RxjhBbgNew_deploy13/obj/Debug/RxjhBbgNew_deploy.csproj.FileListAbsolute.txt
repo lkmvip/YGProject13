@@ -11,6 +11,5 @@ D:\Games\YG\RxjhBbgNew_deploy13\obj\Debug\RxjhBbgNew_deploy.pdb
 F:\OneDrive\Git\YGProject13\RxjhBbgNew_deploy13\bin\Debug\RxjhBbgNew_deploy.dll
 F:\OneDrive\Git\YGProject13\RxjhBbgNew_deploy13\bin\Debug\RxjhBbgNew_deploy.pdb
 F:\OneDrive\Git\YGProject13\RxjhBbgNew_deploy13\bin\Debug\System.Web.dll
-F:\OneDrive\Git\YGProject13\RxjhBbgNew_deploy13\obj\Debug\RxjhBbgNew_deploy.csprojResolveAssemblyReference.cache
 F:\OneDrive\Git\YGProject13\RxjhBbgNew_deploy13\obj\Debug\RxjhBbgNew_deploy.dll
 F:\OneDrive\Git\YGProject13\RxjhBbgNew_deploy13\obj\Debug\RxjhBbgNew_deploy.pdb

@@ -72,7 +72,7 @@
                                     }
                               case "购买":
                                     {
-                                          Form1.WriteLine(3, "웹 구매");
+                                          Form1.WriteLine(1, "웹 구매");
                                           Players players = World.smethod_0(strArray[1]);
                                           if ((long.Parse(strArray[4]) >= 0L) && (int.Parse(strArray[3]) >= 1))
                                           {
@@ -85,9 +85,10 @@
                                                       ITEMSELL itemsell;
                                                       if (World.dictionary_0.TryGetValue(int.Parse(strArray[2]), out itemsell))
                                                       {
-                                                            Form1.WriteLine(3, "웹 구매 패킷 전송");
+                                                            Form1.WriteLine(1, string.Format("웹 구매 패킷 전송 리턴 {0} : {1} : {2} : {3} : {4}", strArray[0], strArray[1], strArray[2], strArray[3], strArray[4]));
+                                                            //Form1.WriteLine(3, string.Format("웹 구매 패킷 전송 (strArray[2]{0}, strArray[3]{1}, strArray[4]{2}, strArray[5]{3}, itemsell.FLD_MAGIC1-{4}, itemsell.FLD_MAGIC2-{5}, itemsell.FLD_MAGIC3-{6}, itemsell.FLD_MAGIC4-{7}, itemsell.FLD_MAGIC5-{8}, itemsell.FLD_TRUNG_CAP_PHU_HON-{9}, itemsell.FLD_SO_CAP_PHU_HON-{10}, itemsell.FLD_TIEN_HOA-{11}, itemsell.FLD_CO_HAY_KHONG_TROI_CHAT-{12}, itemsell.FLD_DAYS-{13})", strArray[2], strArray[3], strArray[4], strArray[5], itemsell.FLD_MAGIC1, itemsell.FLD_MAGIC2, itemsell.FLD_MAGIC3, itemsell.FLD_MAGIC4, itemsell.FLD_MAGIC5, itemsell.FLD_TRUNG_CAP_PHU_HON, itemsell.FLD_SO_CAP_PHU_HON, itemsell.FLD_TIEN_HOA, itemsell.FLD_CO_HAY_KHONG_TROI_CHAT, itemsell.FLD_DAYS));
                                                             str = players.WebItemsell(int.Parse(strArray[2]), int.Parse(strArray[3]), long.Parse(strArray[4]), int.Parse(strArray[5]), itemsell.FLD_MAGIC1, itemsell.FLD_MAGIC2, itemsell.FLD_MAGIC3, itemsell.FLD_MAGIC4, itemsell.FLD_MAGIC5, itemsell.FLD_TRUNG_CAP_PHU_HON, itemsell.FLD_SO_CAP_PHU_HON, itemsell.FLD_TIEN_HOA, itemsell.FLD_CO_HAY_KHONG_TROI_CHAT, itemsell.FLD_DAYS);
-                                                            Form1.WriteLine(3, string.Format("웹 구매 패킷 전송 리턴 {0}", str));
+                                                            Form1.WriteLine(1, string.Format("웹 구매 패킷 전송 리턴 {0}", str));
                                                       }
                                                 }
                                           }
