@@ -14,7 +14,7 @@
             {
             }
 
-            public void method_5(byte[] byte_1, int int_0)
+            public void WebPacketProcess(byte[] byte_1, int int_0)
             {
                   if (World.jlMsg == 1)
                   {
@@ -32,13 +32,16 @@
                         string[] strArray = Encoding.Default.GetString(bytes).Split(separator);
                         switch (strArray[0])
                         {
+                              //사용자 로그인
                               case "用户登陆":
                                     if (World.smethod_0(strArray[1]) == null)
                                     {
+                                          //실패
                                           str = "登陆失败";
                                     }
                                     else
                                     {
+                                          //성공
                                           str = "登陆成功";
                                     }
                                     break;
@@ -132,7 +135,7 @@
                         byte[] buffer2 = new byte[count];
                         Buffer.BlockCopy(byte_1, index + 6, buffer2, 0, count);
                         index += count + 6;
-                        this.method_5(buffer2, count);
+                        this.WebPacketProcess(buffer2, count);
                         if (((index >= int_0) || (byte_1[index] != 170)) || (byte_1[index + 1] != 0x66))
                         {
                               return;
