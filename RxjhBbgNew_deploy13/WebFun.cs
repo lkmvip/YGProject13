@@ -5,6 +5,7 @@ using System.Text.RegularExpressions;
 using System.Web;
 using System.Web.UI;
 
+
 public class WebFun
 {
       private const string CRLF = "\r\n";
@@ -19,7 +20,10 @@ public class WebFun
       public static void AlertInfo(Page page, string message)
       {
             CtrlCharSupport(ref message);
-            page.RegisterStartupScript("alert", "<script language='javascript'>\r\nalert('" + message + "');\r\n</script>\r\n<noscript>you browse can't suppport javascript.</noscript>");
+            //page.RegisterStartupScript("alert", "<script language='javascript'>\r\nalert('" + message + "');\r\n</script>\r\n<noscript>you browse can't suppport javascript.</noscript>");
+            string s = "<script language='javascript'>\r\nalert('" + message + "');\r\n</script>\r\n<noscript>you browse can't suppport javascript.</noscript>";
+            HttpContext.Current.Response.Write(s);
+
       }
 
       public static bool CheckCustomerIP(string strCustomerIP)
