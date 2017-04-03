@@ -132,7 +132,7 @@ namespace DestroyMonsterTool
                   string startupPath = Application.StartupPath;
                   string DirPath = startupPath + "\\Script";
                   DirectoryInfo di = new DirectoryInfo(DirPath);
-                  if (di.Exists != true) Directory.CreateDirectory(DirPath);
+                  if (!di.Exists) Directory.CreateDirectory(DirPath);
                   using (StreamWriter key = new StreamWriter(new FileStream(string.Concat(DirPath, "\\DestroyMonster", ".lua"), FileMode.Create, FileAccess.Write, FileShare.Read), Encoding.GetEncoding("GB2312")))
                   {
                         key.Write("function DestroyMonster(UserWorldId, MonsterId) \r\n");
