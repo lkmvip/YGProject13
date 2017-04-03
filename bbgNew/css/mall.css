@@ -1,0 +1,141 @@
+@charset "utf-8";
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    background: transparent;
+}
+html {background:#000;}
+body {
+    line-height: 1;font-size:12px;color:#ADDBEF
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+/* remember to define focus styles! */
+:focus {
+    outline: 0;
+}
+/* remember to highlight inserts somehow! */
+ins {
+    text-decoration: none;
+}
+del {
+    text-decoration: line-through;
+}
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+a {text-decoration:none;}
+a:hover {text-decoration:underline}
+select{border:1px solid #C8D2F0;background:#000;color:#fff;height:auto;vertical-align:middle;padding:2px;}
+
+/* 字体属性 [定义规则，小写f加属性名称] */
+.fB {font-weight: bold;}
+.fI {font-style: italic;}
+.yellow_12b {font-weight: bold;color:#FFF200}
+
+/* Laoding */
+.load {background:url(../images/loading.gif) #fff no-repeat center center;display:none;position:absolute;top:0;left:0;z-index:999;filter:alpha(opacity=50);opacity:0.5;}
+#loading {width:780px;height:520px;}
+#right_load {width:340px;height:375px;margin:10px}
+#left_load {width:370px;height:390px;}
+
+/* CSS Document */
+#wrapper {width:780px;height:520px;overflow:hidden;background:url(../images/20050617_bg_con.jpg) no-repeat 0 90px}
+#header {background:url(../images/20050617_bg_top.gif) no-repeat;height:62px;}
+#nav {background:url(../images/20050617_bg_nevi.gif) repeat-y;height:28px;}
+#right_col {float:right;display:inline;position:relative;margin:13px 20px 0 0;width:360px;height:395px;background:url(../images/20050126_con_bg2.gif) no-repeat;}
+#left_col {float:left;display:inline;position:relative;margin:13px 0 0 20px;width:370px;height:400px;}
+#help {display:none;position:absolute;top:100px;left:15px;width:750px;height:400px;background:url(../images/20050617_bg_con.jpg) no-repeat -15px 0}
+
+/* ------------------------------------------- header ------------------------------------------*/
+.money {float:right;margin:10px 10px 0 0;height:36px;background:url(../images/20050126_cash_bg1.gif) no-repeat 0 0;padding-left:18px;}
+.money_r {*display:inline;zoom:1;height:36px;zoom:1;background:url(../images/20050126_cash_bg3.gif) no-repeat right;padding-right:18px;}
+.cash {height:24px;*display:inline;zoom:1;background:url(../images/20050126_cash_bg2.gif) repeat-x;font-weight:bold;padding-top:12px}
+.cash span {color:#7BCFB5}
+
+/* ------------------------------------------- nav ------------------------------------------*/
+.nav_left {float:left;padding-left:8px;_padding-left:9px;}
+.nav_right {float:right;padding-right:8px;_padding-right:9px}
+.nav_left li {float:left;width:104px;height:28px;margin-left:-1px}
+.nav_right li {float:left;width:104px;height:28px;margin-right:-1px}
+#nav li a {display:block;font-weight:bold;color:#7798A7;text-align:center;height:28px;line-height:28px;background:url(../images/nevi_o.gif) no-repeat;}
+#nav li a:hover,#nav li a.act {text-decoration: none;color:#6BDFBB;background-position:0 -28px}
+
+/* ------------------------------------------- right_col ------------------------------------------*/
+#ann {padding:15px;height:330px}
+#ann h3 {text-align:center;padding:10px;font-size:14px;font-weight:bold;color:#eee}
+#ann p {text-indent:2em;line-height:1.5}
+#page {text-align:center;}
+#per {background:url(../images/per.gif) no-repeat;width:61px;height:20px;text-indent:-999em;cursor:pointer;border:0}
+#next {background:url(../images/next.gif) no-repeat;width:61px;height:20px;text-indent:-999em;cursor:pointer;border:0}
+
+/* ------------------------------------------- left_col ------------------------------------------*/
+.table-item-log {width:100%}
+.table-item-log th {background:#284038;line-height:30px;border:2px #ccc solid;}
+.table-item-log td {height:64px;line-height:1.2;border:2px #ccc solid;vertical-align:middle;text-align:center;padding:0 4px}
+td.cell-align-l {text-align:left}
+.table-item-log td strong {color:#7BCFB5}
+.table-item-log td a {color:#eee}
+
+/* ------------------------------------------- buyItem ------------------------------------------*/
+#itemform {display:none;}
+.itemonfo {background:#1e241f;width:315px;border:1px #94b29c solid;margin:25px auto}
+.itemonfo dl {padding:15px 0}
+.itemonfo dt {float:left;padding:0 15px}
+.itemonfo dd {float:right;width:220px;font-weight:bold;font-size:14px;color:#fff;line-height:20px}
+.itemonfo dd i {font-style:normal;background:url(../images/20050126_icon_cross.gif) no-repeat 0 3px;padding-left:8px;font-size:12px;color:#7BCFB5}
+.itemonfo dd del {color:#666100;font-size:12px}
+.itemtext {width:315px;margin:0 auto}
+.itemtext span {float:left;background:url(../images/20050126_icon_cross.gif) no-repeat 0 3px;padding-left:8px;height:14px;line-height:14px;}
+.itemtext p {float:left;width:260px;line-height:1.5}
+.buyinfo {background:#1c280d;width:315px;border:1px #476320 solid;margin:25px auto}
+.buyinfo td {line-height:30px;vertical-align:middle;}
+.done {text-align:center;padding:50px 0;display:none;}
+#submit {background:url(../images/20050131_bt_buy.gif) no-repeat;border:0;width:92px;height:19px;text-indent:-999em;cursor:pointer;}
+
+/* ------------------------------------------- itemtag ------------------------------------------*/
+#itembag {display:none;}
+#itembag table {border:1px #5a9ead solid;margin:25px auto;font-weight:bold}
+#itembag table td {height:40px;vertical-align:middle;line-height:1.2;border:1px #5a9ead solid;}
+#itembag table td.lab {background:#284038;padding-left: 10px;text-align:left;}
+#itembag p {width:315px;margin:25px auto;color:#fff;line-height:1.2}
+
+/* ------------------------------------------- mybuylog ------------------------------------------*/
+#mybuylog {display:none;}
+#mybuylog table {border:1px #5a9ead solid;margin:25px auto 5px;font-weight:bold}
+#mybuylog table th {background:#284038;height:40px;vertical-align:middle;line-height:1.2;border:1px #5a9ead solid;}
+#mybuylog table td {line-height:28px;vertical-align:middle;text-align:center;border:1px #5a9ead solid;}
+#mybuylog p {width:315px;margin:0 auto;color:#fff;line-height:1.2}
+
+/* ------------------------------------------- helpnav ------------------------------------------*/
+.helpnav {float:left;display:inline;margin:10px;width:270px;}
+.helpnav p {background:url(../images/20050126_icon_help.gif) no-repeat 26px 30px;height:50px;padding:25px 30px 25px 80px;line-height:22px;font-weight:bold}
+.helpnav img {display:block;width:230px;margin:10px auto;cursor:pointer;}
+.helpmain {float:left;display:inline;margin:10px;height:375px;width:438px;}
+.helpmain h3 {background:url(../images/20050126_help_t_bg.gif) no-repeat;height:48px;font-size:14px;font-weight:bold;line-height:48px;text-align:center;color:#fff}
+.helpmain .helpcol {background:#000;height:300px;padding:11px 10px;overflow:auto;line-height:1.2}
+
+/* ---------- clearfix hack ---------- */
+.clearfix:after { content: "."; display: block; clear: both; height: 0; visibility: hidden; }
+.clearfix { display: inline-block; }
+/* exlude MacIE5 \*/
+* html .clearfix { height: 1% }
+.clearfix {display:block;}
+/* end MacIE5 */

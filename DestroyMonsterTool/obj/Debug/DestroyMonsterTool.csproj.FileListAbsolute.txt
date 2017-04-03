@@ -1,0 +1,17 @@
+F:\OneDrive\DelphiWork\C#\YGServerProject13.0.0.5\DestroyMonsterTool\bin\Debug\DestroyMonsterTool.exe.config
+F:\OneDrive\DelphiWork\C#\YGServerProject13.0.0.5\DestroyMonsterTool\bin\Debug\DestroyMonsterTool.exe
+F:\OneDrive\DelphiWork\C#\YGServerProject13.0.0.5\DestroyMonsterTool\bin\Debug\DestroyMonsterTool.pdb
+F:\OneDrive\DelphiWork\C#\YGServerProject13.0.0.5\DestroyMonsterTool\obj\Debug\DestroyMonsterTool.Form1.resources
+F:\OneDrive\DelphiWork\C#\YGServerProject13.0.0.5\DestroyMonsterTool\obj\Debug\DestroyMonsterTool.Properties.Resources.resources
+F:\OneDrive\DelphiWork\C#\YGServerProject13.0.0.5\DestroyMonsterTool\obj\Debug\DestroyMonsterTool.csproj.GenerateResource.Cache
+F:\OneDrive\DelphiWork\C#\YGServerProject13.0.0.5\DestroyMonsterTool\obj\Debug\DestroyMonsterTool.exe
+F:\OneDrive\DelphiWork\C#\YGServerProject13.0.0.5\DestroyMonsterTool\obj\Debug\DestroyMonsterTool.pdb
+F:\OneDrive\Git\YGProject13\DestroyMonsterTool\bin\Debug\DestroyMonsterTool.exe.config
+F:\OneDrive\Git\YGProject13\DestroyMonsterTool\bin\Debug\DestroyMonsterTool.exe
+F:\OneDrive\Git\YGProject13\DestroyMonsterTool\bin\Debug\DestroyMonsterTool.pdb
+F:\OneDrive\Git\YGProject13\DestroyMonsterTool\obj\Debug\DestroyMonsterTool.csprojResolveAssemblyReference.cache
+F:\OneDrive\Git\YGProject13\DestroyMonsterTool\obj\Debug\DestroyMonsterTool.Form1.resources
+F:\OneDrive\Git\YGProject13\DestroyMonsterTool\obj\Debug\DestroyMonsterTool.Properties.Resources.resources
+F:\OneDrive\Git\YGProject13\DestroyMonsterTool\obj\Debug\DestroyMonsterTool.csproj.GenerateResource.Cache
+F:\OneDrive\Git\YGProject13\DestroyMonsterTool\obj\Debug\DestroyMonsterTool.exe
+F:\OneDrive\Git\YGProject13\DestroyMonsterTool\obj\Debug\DestroyMonsterTool.pdb

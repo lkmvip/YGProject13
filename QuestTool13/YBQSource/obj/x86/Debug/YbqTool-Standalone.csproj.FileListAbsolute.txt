@@ -1,0 +1,7 @@
+F:\OneDrive\DelphiWork\C#\YGServerProject13.0.0.5\QuestTool13\YBQSource\bin\Debug\YbqTool-Standalone.exe
+F:\OneDrive\DelphiWork\C#\YGServerProject13.0.0.5\QuestTool13\YBQSource\bin\Debug\YbqTool-Standalone.pdb
+F:\OneDrive\DelphiWork\C#\YGServerProject13.0.0.5\QuestTool13\YBQSource\obj\x86\Debug\YbqTool-Standalone.csprojResolveAssemblyReference.cache
+F:\OneDrive\DelphiWork\C#\YGServerProject13.0.0.5\QuestTool13\YBQSource\obj\x86\Debug\RxjhTool.YbQForm.resources
+F:\OneDrive\DelphiWork\C#\YGServerProject13.0.0.5\QuestTool13\YBQSource\obj\x86\Debug\YbqTool-Standalone.csproj.GenerateResource.Cache
+F:\OneDrive\DelphiWork\C#\YGServerProject13.0.0.5\QuestTool13\YBQSource\obj\x86\Debug\YbqTool-Standalone.exe
+F:\OneDrive\DelphiWork\C#\YGServerProject13.0.0.5\QuestTool13\YBQSource\obj\x86\Debug\YbqTool-Standalone.pdb

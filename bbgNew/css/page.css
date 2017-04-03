@@ -1,0 +1,52 @@
+/* CSS Document */
+
+/* Pages Main Tyle */
+.pages {
+	color: #fff;
+	cursor: default;
+	font-size: 10px;
+	font-family: Verdana, Tahoma;
+	padding: 15px 0px 3px 0px;
+	text-align:center;
+}
+.pages .count, .pages .number, .pages .arrow , .pages .pagename {
+	color: #fff;
+	font-size: 10px;
+}
+/* Page and PageCount Style */
+.pages .count {
+	font-weight: bold;
+	border-right: none;
+	padding: 2px 10px 1px 10px !important;
+	padding: 2px 10px 2px 10px;
+}
+.pages .pagename {
+	font-size: 12px;
+	font-weight: bold;
+	border-right: none;
+	padding: 0px 10px 1px 10px;
+}
+/* Mode 0,1,2 Style (Number) */
+.pages .number {
+	font-family: Verdana, Tahoma;
+	font-weight: normal;
+	padding: 2px 10px 1px 10px !important;
+	padding: 2px 10px 2px 10px;
+}
+.pages .number a, .pages .number span {
+	font-family: Verdana, Tahoma;
+	font-size: 10px;
+}
+.pages .number span {
+	color: #333;
+	margin: 0px 3px 0px 3px;
+}
+.pages .number a {
+	color: #fff;
+	text-decoration: none;
+}
+.pages .number a:hover {
+	color: #0000ff;
+	text-decoration: none;
+}
+

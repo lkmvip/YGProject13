@@ -1,0 +1,32 @@
+function MoveQuestMap(UserWorldId, MapId)
+	local Msg=string.format("MapId %d",MapId)
+	SendSysMsg(UserWorldId,Msg, 9, "MapId: ")
+	
+
+	if MapId == 27001 then ---황량한 협곡(한비광)
+		MoveMap(UserWorldId,MapId,2,-1,15)
+	elseif MapId == 27201 then --현발파 대련장(한비광)
+		MoveMap(UserWorldId,MapId,-7,5,15)
+	elseif MapId == 27401 then --파괴된 송무문 입구(한비광)
+		MoveMap(UserWorldId,MapId,-7,5,15)
+	elseif MapId == 27601 then --연주마을 뒷산(한비광)
+		MoveMap(UserWorldId,MapId,-7,5,15)
+	elseif MapId == 27801 then --장백산 기슭(한비광)
+		MoveMap(UserWorldId,MapId,-7,5,15)
+	elseif MapId == 28001 then --안미마을(한비광)
+		MoveMap(UserWorldId,MapId,-7,5,15)
+	elseif MapId == 28201 then --동령 중심부(한비광)
+		MoveMap(UserWorldId,MapId,0,0,15)
+	elseif MapId == 31001 then --황량한 협곡(담화린)
+		MoveMap(UserWorldId,MapId,-7,5,15)
+	elseif MapId == 31201 then --파괴된 송무문 입구(담화린)
+		MoveMap(UserWorldId,MapId,-7,5,15)
+	elseif MapId == 31401 then --연주마을 뒷산(담화린)
+		MoveMap(UserWorldId,MapId,-7,5,15)
+	elseif MapId == 31601 then --장백산 기슭(담화린)
+		MoveMap(UserWorldId,MapId,-7,5,15)
+	elseif MapId == 31801 then --동령 중심부(담화린)
+		MoveMap(UserWorldId,MapId,-7,5,15)
+	end
+	
+end

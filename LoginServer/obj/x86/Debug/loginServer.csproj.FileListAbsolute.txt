@@ -1,0 +1,16 @@
+D:\Games\YG\Server\LoginServer\bin\Debug\loginServer.exe
+D:\Games\YG\Server\LoginServer\bin\Debug\loginServer.pdb
+D:\Games\YG\Server\LoginServer\obj\x86\Debug\loginServer.exe
+D:\Games\YG\Server\LoginServer\obj\x86\Debug\loginServer.pdb
+D:\Games\YG\Server\LoginServer\obj\x86\Debug\loginServer.csprojResolveAssemblyReference.cache
+F:\OneDrive\DelphiWork\C#\GS13_VS2015_SRC_Build_13.5\LoginServer\bin\Debug\loginServer.exe
+F:\OneDrive\DelphiWork\C#\GS13_VS2015_SRC_Build_13.5\LoginServer\bin\Debug\loginServer.pdb
+F:\OneDrive\DelphiWork\C#\GS13_VS2015_SRC_Build_13.5\LoginServer\obj\x86\Debug\loginServer.exe
+F:\OneDrive\DelphiWork\C#\GS13_VS2015_SRC_Build_13.5\LoginServer\obj\x86\Debug\loginServer.pdb
+F:\OneDrive\DelphiWork\C#\GS13_VS2015_SRC_Build_13.5\LoginServer\obj\x86\Debug\loginServer.csprojResolveAssemblyReference.cache
+F:\OneDrive\DelphiWork\C#\YGServerProject13.0.0.5\LoginServer\bin\Debug\loginServer.exe
+F:\OneDrive\DelphiWork\C#\YGServerProject13.0.0.5\LoginServer\bin\Debug\loginServer.pdb
+F:\OneDrive\DelphiWork\C#\YGServerProject13.0.0.5\LoginServer\obj\x86\Debug\LoginServer.Form1.resources
+F:\OneDrive\DelphiWork\C#\YGServerProject13.0.0.5\LoginServer\obj\x86\Debug\LoginServer.csproj.GenerateResource.Cache
+F:\OneDrive\DelphiWork\C#\YGServerProject13.0.0.5\LoginServer\obj\x86\Debug\loginServer.exe
+F:\OneDrive\DelphiWork\C#\YGServerProject13.0.0.5\LoginServer\obj\x86\Debug\loginServer.pdb

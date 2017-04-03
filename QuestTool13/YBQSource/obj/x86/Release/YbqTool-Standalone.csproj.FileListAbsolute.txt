@@ -1,0 +1,22 @@
+C:\Documents and Settings\Windows XP\Desktop\YBQSource\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Windows XP\Desktop\YBQSource\bin\Release\YbqTool-Standalone.exe
+C:\Documents and Settings\Windows XP\Desktop\YBQSource\bin\Release\YbqTool-Standalone.pdb
+C:\Documents and Settings\Windows XP\Desktop\YBQSource\obj\x86\Release\YbqTool-Standalone.exe
+C:\Documents and Settings\Windows XP\Desktop\YBQSource\obj\x86\Release\YbqTool-Standalone.pdb
+D:\내문서\Desktop\YBQTool Source\YBQSource\bin\Release\YbqTool-Standalone.exe
+D:\내문서\Desktop\YBQTool Source\YBQSource\bin\Release\YbqTool-Standalone.pdb
+D:\내문서\Desktop\YBQTool Source\YBQSource\obj\x86\Release\YbqTool-Standalone.exe
+D:\내문서\Desktop\YBQTool Source\YBQSource\obj\x86\Release\YbqTool-Standalone.pdb
+D:\Games\YG\YBQTool Source\YBQSource\obj\x86\Release\YbqTool-Standalone.exe
+D:\Games\YG\YBQTool Source\YBQSource\obj\x86\Release\YbqTool-Standalone.pdb
+D:\Games\YG\YBQTool Source\YBQSource\bin\Release\YbqTool-Standalone.exe
+D:\Games\YG\YBQTool Source\YBQSource\bin\Release\YbqTool-Standalone.pdb
+D:\Games\YG\YBQTool Source\YBQSource\obj\x86\Release\YbqTool-Standalone.csprojResolveAssemblyReference.cache
+D:\Games\YG\YBQTool Source\YBQSource\obj\x86\Release\RxjhTool.YbQForm.resources
+D:\Games\YG\YBQTool Source\YBQSource\obj\x86\Release\YbqTool-Standalone.csproj.GenerateResource.Cache
+D:\Games\YG\YBQTool Source13\YBQSource\obj\x86\Release\YbqTool-Standalone.exe
+D:\Games\YG\YBQTool Source13\YBQSource\obj\x86\Release\YbqTool-Standalone.pdb
+D:\Games\YG\YBQTool Source13\YBQSource\bin\Release\YbqTool-Standalone.exe
+D:\Games\YG\YBQTool Source13\YBQSource\bin\Release\YbqTool-Standalone.pdb
+D:\Games\YG\YBQTool Source13\YBQSource\obj\x86\Release\RxjhTool.YbQForm.resources
+D:\Games\YG\YBQTool Source13\YBQSource\obj\x86\Release\YbqTool-Standalone.csproj.GenerateResource.Cache

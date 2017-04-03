@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectType>local</ProjectType>
+    <ProjectVersion>7.10.377</ProjectVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{AC873F20-9785-48F1-BF96-83FBAE9BFBCA}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <AssemblyName>loginServer</AssemblyName>
+    <OutputType>WinExe</OutputType>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Compile Include="loginServer\BufferPool.cs" />
+    <Compile Include="loginServer\NetState.cs" />
+    <Compile Include="loginServer\BinIP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="loginServer\KillClass.cs" />
+    <Compile Include="loginServer\SockClient.cs" />
+    <Compile Include="loginServer\PlayerHandler.cs" />
+    <Compile Include="loginServer\RemoveClientDelegate.cs" />
+    <Compile Include="loginServer\playerS.cs" />
+    <Compile Include="loginServer\FormIpList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="loginServer\HardDiskInfo.cs" />
+    <Compile Include="loginServer\DbClss\IPScaner.cs" />
+    <Compile Include="loginServer\ThreadParameter.cs" />
+    <Compile Include="loginServer\DbClss\DBA.cs" />
+    <Compile Include="loginServer\SendCmdInParams.cs" />
+    <Compile Include="loginServer\IdeRegs.cs" />
+    <Compile Include="loginServer\SevConnClass.cs" />
+    <Compile Include="loginServer\Listener.cs" />
+    <Compile Include="loginServer\ServerXlClass.cs" />
+    <Compile Include="loginServer\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="loginServer\DNGuard\ObfuscationAttribute.cs" />
+    <Compile Include="loginServer\DNGuard\NonSecureAttribute.cs" />
+    <Compile Include="loginServer\HelperTools\Converter.cs" />
+    <Compile Include="loginServer\IoContextPool.cs" />
+    <Compile Include="loginServer\Player.cs" />
+    <Compile Include="loginServer\World.cs" />
+    <Compile Include="loginServer\DNGuard\SecureCallbackMethodAttribute.cs" />
+    <Compile Include="loginServer\GetVersionOutParams.cs" />
+    <Compile Include="loginServer\GClass0.cs" />
+    <Compile Include="loginServer\ServerClass.cs" />
+    <Compile Include="loginServer\Properties\Settings.cs" />
+    <Compile Include="loginServer\BbcServer.cs" />
+    <Compile Include="loginServer\Properties\Resources.cs" />
+    <Compile Include="loginServer\FormGg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="loginServer\logo.cs" />
+    <Compile Include="loginServer\IdSector.cs" />
+    <Compile Include="loginServer\ZYXDNGuarder.cs" />
+    <Compile Include="loginServer\DbClss\RxjhClass.cs" />
+    <Compile Include="loginServer\ListViewColumnSorter.cs" />
+    <Compile Include="loginServer\ListViewHelper.cs" />
+    <Compile Include="loginServer\TxtClass.cs" />
+    <Compile Include="loginServer\IoServer.cs" />
+    <Compile Include="loginServer\userlist.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="loginServer\DbClss\Config.cs" />
+    <Compile Include="loginServer\DbClss\DbClass.cs" />
+    <Compile Include="loginServer\Program.cs" />
+    <Compile Include="loginServer\CapacityExceededException.cs" />
+    <Compile Include="loginServer\FlickerFreePanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="loginServer\DNGuard\SecureMethodAttribute.cs" />
+    <Compile Include="loginServer\SendQueue.cs" />
+    <EmbeddedResource Include="loginServer\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="loginServer\Resources\loginServer.FormIpList.resources" />
+    <EmbeddedResource Include="loginServer\Resources\loginServer.Form1.resources" />
+    <EmbeddedResource Include="loginServer\Resources\loginServer.userlist.resources" />
+    <EmbeddedResource Include="loginServer\Resources\loginServer.FormGg.resources" />
+    <EmbeddedResource Include="loginServer\Resources\loginServer.Properties.Resources.resources" />
+    <EmbeddedResource Include="loginServer\Resources\loginServer.BinIP.resources" />
+  </ItemGroup>
+</Project>

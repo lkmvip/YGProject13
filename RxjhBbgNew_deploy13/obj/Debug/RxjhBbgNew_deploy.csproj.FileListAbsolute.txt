@@ -1,0 +1,16 @@
+C:\Users\regis\Documents\RxjhBbgNew_deploy\bin\Debug\RxjhBbgNew_deploy.dll
+C:\Users\regis\Documents\RxjhBbgNew_deploy\bin\Debug\RxjhBbgNew_deploy.pdb
+C:\Users\regis\Documents\RxjhBbgNew_deploy\bin\Debug\System.Web.dll
+C:\Users\regis\Documents\RxjhBbgNew_deploy\obj\Debug\RxjhBbgNew_deploy.dll
+C:\Users\regis\Documents\RxjhBbgNew_deploy\obj\Debug\RxjhBbgNew_deploy.pdb
+D:\Games\YG\RxjhBbgNew_deploy13\bin\Debug\RxjhBbgNew_deploy.dll
+D:\Games\YG\RxjhBbgNew_deploy13\bin\Debug\RxjhBbgNew_deploy.pdb
+D:\Games\YG\RxjhBbgNew_deploy13\bin\Debug\System.Web.dll
+D:\Games\YG\RxjhBbgNew_deploy13\obj\Debug\RxjhBbgNew_deploy.dll
+D:\Games\YG\RxjhBbgNew_deploy13\obj\Debug\RxjhBbgNew_deploy.pdb
+F:\OneDrive\Git\YGProject13\RxjhBbgNew_deploy13\bin\Debug\RxjhBbgNew_deploy.dll
+F:\OneDrive\Git\YGProject13\RxjhBbgNew_deploy13\bin\Debug\RxjhBbgNew_deploy.pdb
+F:\OneDrive\Git\YGProject13\RxjhBbgNew_deploy13\bin\Debug\System.Web.dll
+F:\OneDrive\Git\YGProject13\RxjhBbgNew_deploy13\obj\Debug\RxjhBbgNew_deploy.csprojResolveAssemblyReference.cache
+F:\OneDrive\Git\YGProject13\RxjhBbgNew_deploy13\obj\Debug\RxjhBbgNew_deploy.dll
+F:\OneDrive\Git\YGProject13\RxjhBbgNew_deploy13\obj\Debug\RxjhBbgNew_deploy.pdb
